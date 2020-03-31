@@ -1,1 +1,1 @@
-web : python webhook.py
+web : Python webhook.py
