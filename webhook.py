@@ -42,7 +42,3 @@ speech="The forecast for "+city+ " for "+date+" is "+ condition
  
  }]}
 
-if __name__=='__main__':
- port=int(os.getenv('PORT',5000))
- print("starting on port %d" % port)
- app.run(debug=False, port=port, host='0.0.0.0')
